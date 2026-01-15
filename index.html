@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vibroanálisis S.A.S. | Ingeniería Especializada en Confiabilidad de Activos</title>
+  <meta name="description" content="Vibroanálisis S.A.S. empresa especializada en análisis de vibraciones, balanceo dinámico, alineación láser y mantenimiento predictivo de equipos rotativos industriales." />
+
+  <style>
+    :root {
+      --primary: #f28c00;
+      --dark: #0f172a;
+      --gray: #334155;
+      --light: #f8fafc;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      color: var(--dark);
+      background: #ffffff;
+      line-height: 1.8;
+    }
+
+    header {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      z-index: -1;
+    }
+
+    header h1 {
+      font-size: clamp(2.5rem, 5vw, 3.8rem);
+      margin-bottom: 1.5rem;
+    }
+
+    header p {
+      max-width: 950px;
+      margin: 0 auto 2.5rem;
+      font-size: 1.25rem;
+    }
+
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 36px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      display: inline-block;
+    }
+
+    section {
+      padding: 100px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    .section-title h2 {
+      font-size: 2.8rem;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .values, .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 35px;
+    }
+
+    .value-card, .service {
+      background: var(--light);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      background: var(--dark);
+      color: #fff;
+      text-align: center;
+      padding: 90px 8%;
+    }
+
+    .lang {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 99;
+    }
+
+    .lang button {
+      margin-left: 6px;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="lang">
+  <button onclick="setLang('es')">ES</button>
+  <button onclick="setLang('en')">EN</button>
+</div>
+
+<header>
+  <div>
+    <h1 data-es="Ingeniería Especializada en Confiabilidad y Diagnóstico Predictivo" data-en="Specialized Engineering in Reliability and Predictive Diagnostics">Ingeniería Especializada en Confiabilidad y Diagnóstico Predictivo</h1>
+    <p data-es="Vibroanálisis S.A.S. es una empresa de ingeniería conformada por especialistas en análisis de vibraciones y confiabilidad de activos, dedicada a optimizar el desempeño de equipos rotativos industriales mediante diagnóstico técnico avanzado. Con más de 17 años de trayectoria técnica en el sector industrial, hemos acompañado a empresas del área metropolitana y el oriente antioqueño en la toma de decisiones basadas en datos, confiabilidad operacional y reducción de fallas críticas." 
+       data-en="Vibroanálisis S.A.S. is an engineering company formed by specialists in vibration analysis and asset reliability, dedicated to optimizing the performance of industrial rotating equipment through advanced technical diagnostics. With more than 17 years of technical experience in the industrial sector, we have supported companies in the metropolitan area and Eastern Antioquia in data-driven decision-making, operational reliability and critical failure reduction.">
+       Vibroanálisis S.A.S. es una empresa de ingeniería conformada por especialistas en análisis de vibraciones y confiabilidad de activos, dedicada a optimizar el desempeño de equipos rotativos industriales mediante diagnóstico técnico avanzado. Con más de 17 años de trayectoria técnica en el sector industrial, hemos acompañado a empresas del área metropolitana y el oriente antioqueño en la toma de decisiones basadas en datos, confiabilidad operacional y reducción de fallas críticas.
+    </p>
+    <a class="btn" href="https://wa.link/pn7bh1" target="_blank" data-es="Hablar con un Ingeniero Especialista" data-en="Speak with a Specialist Engineer">Hablar con un Ingeniero Especialista</a>
+  </div>
+</header>
+
+<section>
+  <div class="section-title"><h2 data-es="Sobre Nosotros" data-en="About Us">Sobre Nosotros</h2></div>
+  <div class="about">
+    <div>
+      <h3 data-es="Nuestra Misión" data-en="Our Mission">Nuestra Misión</h3>
+      <p data-es="Proveer servicios de ingeniería especializados en análisis de vibraciones, balanceo dinámico y alineación de maquinaria, enfocados en aumentar la confiabilidad operacional, reducir riesgos técnicos y maximizar la vida útil de los activos industriales." 
+         data-en="To provide specialized engineering services in vibration analysis, dynamic balancing and machinery alignment, focused on increasing operational reliability, reducing technical risks and maximizing the useful life of industrial assets.">
+         Proveer servicios de ingeniería especializados en análisis de vibraciones, balanceo dinámico y alineación de maquinaria, enfocados en aumentar la confiabilidad operacional, reducir riesgos técnicos y maximizar la vida útil de los activos industriales.
+      </p>
+      <br />
+      <h3 data-es="Nuestra Visión" data-en="Our Vision">Nuestra Visión</h3>
+      <p data-es="Consolidarnos como una empresa referente en ingeniería de confiabilidad a nivel nacional y latinoamericano, reconocida por su rigor técnico, ética profesional y generación de valor estratégico para la industria." 
+         data-en="To consolidate ourselves as a benchmark company in reliability engineering at national and Latin American level, recognized for technical rigor, professional ethics and strategic value generation for industry.">
+         Consolidarnos como una empresa referente en ingeniería de confiabilidad a nivel nacional y latinoamericano, reconocida por su rigor técnico, ética profesional y generación de valor estratégico para la industria.
+      </p>
+    </div>
+  </div>
+<div style="margin-top:30px">
+      <h3 data-es="Disponibilidad Operativa y Cumplimiento Técnico" data-en="Operational Availability and Technical Compliance">Disponibilidad Operativa y Cumplimiento Técnico</h3>
+      <p data-es="Nuestros servicios se prestan bajo un esquema de disponibilidad programada mediante agendamiento técnico, permitiendo una correcta planificación de recursos, análisis previo de criticidad y ejecución segura de las actividades en campo. Este enfoque garantiza atención oportuna sin afectar la continuidad operacional de nuestros clientes." 
+         data-en="Our services are provided under a scheduled availability scheme through technical appointment planning, allowing proper resource allocation, prior criticality analysis and safe on-site execution. This approach ensures timely service without affecting our clients' operational continuity.">
+        Nuestros servicios se prestan bajo un esquema de disponibilidad programada mediante agendamiento técnico, permitiendo una correcta planificación de recursos, análisis previo de criticidad y ejecución segura de las actividades en campo.
+      </p>
+      <p data-es="Vibroanálisis S.A.S. opera conforme a buenas prácticas de ingeniería, cumpliendo con requisitos técnicos, normativos y de seguridad industrial aplicables (RTC), asegurando la confiabilidad de los diagnósticos, la trazabilidad de la información y la integridad de los procesos intervenidos." 
+         data-en="Vibroanálisis S.A.S. operates in accordance with engineering best practices, complying with applicable technical, regulatory and industrial safety requirements (RTC), ensuring diagnostic reliability, information traceability and integrity of intervened processes.">
+        Vibroanálisis S.A.S. opera conforme a buenas prácticas de ingeniería, cumpliendo con requisitos técnicos, normativos y de seguridad industrial aplicables (RTC).
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- VALOR DIFERENCIAL -->
+<section>
+  <div class="section-title">
+    <h2 data-es="¿Por qué confiar en Vibroanálisis S.A.S.?" data-en="Why Trust Vibroanálisis S.A.S.?">¿Por qué confiar en Vibroanálisis S.A.S.?</h2>
+  </div>
+  <div class="values">
+    <div class="value-card">
+      <h3 data-es="Experiencia Técnica Comprobada" data-en="Proven Technical Experience">Experiencia Técnica Comprobada</h3>
+      <p data-es="Más de 17 años de experiencia en diagnóstico de maquinaria rotativa, análisis espectral y evaluación de condiciones operativas en entornos industriales exigentes." data-en="Over 17 years of experience in rotating machinery diagnostics, spectral analysis and operational condition assessment in demanding industrial environments.">Más de 17 años de experiencia en diagnóstico de maquinaria rotativa, análisis espectral y evaluación de condiciones operativas en entornos industriales exigentes.</p>
+    </div>
+    <div class="value-card">
+      <h3 data-es="Decisiones Basadas en Datos" data-en="Data-Driven Decisions">Decisiones Basadas en Datos</h3>
+      <p data-es="Nuestros diagnósticos se fundamentan en mediciones reales, análisis de tendencias y criterios técnicos, permitiendo a nuestros clientes tomar decisiones confiables y oportunas." data-en="Our diagnostics are based on real measurements, trend analysis and technical criteria, allowing our clients to make reliable and timely decisions.">Nuestros diagnósticos se fundamentan en mediciones reales, análisis de tendencias y criterios técnicos.</p>
+    </div>
+    <div class="value-card">
+      <h3 data-es="Reducción de Riesgos y Costos" data-en="Risk and Cost Reduction">Reducción de Riesgos y Costos</h3>
+      <p data-es="Contribuimos a la disminución de fallas inesperadas, paradas no programadas y costos de mantenimiento correctivo mediante estrategias predictivas." data-en="We contribute to the reduction of unexpected failures, unplanned downtime and corrective maintenance costs through predictive strategies.">Contribuimos a la disminución de fallas inesperadas, paradas no programadas y costos de mantenimiento correctivo.</p>
+    </div>
+    <div class="value-card">
+      <h3 data-es="Cumplimiento Técnico y Seguridad" data-en="Technical Compliance and Safety">Cumplimiento Técnico y Seguridad</h3>
+      <p data-es="Operamos bajo estándares técnicos, normativos y de seguridad industrial (RTC), garantizando intervenciones seguras y confiables." data-en="We operate under technical, regulatory and industrial safety standards (RTC), ensuring safe and reliable interventions.">Operamos bajo estándares técnicos, normativos y de seguridad industrial (RTC).</p>
+    </div>
+  </div>
+<!-- INDICADORES TECNICOS -->
+<section style="background:#ffffff">
+  <div class="section-title">
+    <h2 data-es="" data-en="Operational Continuity"></h3>
+      <p data-es="Disminución de paradas no programadas mediante diagnóstico temprano de fallas mecánicas, eléctricas y estructurales." data-en="Reduction of unplanned downtime through early diagnosis of mechanical, electrical and structural failures."></p>
+    </div>
+  </div>
+</section>
+
+<!-- CASOS DE APLICACION -->
+<section style="background:#f1f5f9">
+  <div class="section-title">
+    <h2 data-es="Casos de Aplicación" data-en="Application Scenarios">Casos de Aplicación</h2>
+    <p data-es="La experiencia acumulada durante más de 17 años en el mercado nos ha permitido intervenir equipos rotativos en diversos sectores industriales, aplicando metodologías de análisis de vibraciones y confiabilidad adaptadas a cada operación." data-en="Over more than 17 years in the market, our experience has enabled us to intervene rotating equipment across diverse industrial sectors, applying vibration analysis and reliability methodologies tailored to each operation.">La experiencia acumulada durante más de 17 años en el mercado nos ha permitido intervenir equipos rotativos en diversos sectores industriales, aplicando metodologías de análisis de vibraciones y confiabilidad adaptadas a cada operación.</p>
+  </div>
+  <div class="services">
+    <div class="service">
+      <h3 data-es="Equipos Rotativos Críticos" data-en="Critical Rotating Equipment">Equipos Rotativos Críticos</h3>
+      <p data-es="Diagnóstico y seguimiento de bombas, motores y reductores sometidos a operación continua, garantizando su confiabilidad y disponibilidad operacional." data-en="Diagnosis and monitoring of pumps, motors and gearboxes under continuous operation, ensuring reliability and operational availability.">Diagnóstico y seguimiento de bombas, motores y reductores sometidos a operación continua, garantizando su confiabilidad y disponibilidad operacional.</p>
+    </div>
+    <div class="service">
+      <h3 data-es="Ventiladores y Sistemas de Transporte" data-en="Fans and Conveying Systems">Ventiladores y Sistemas de Transporte</h3>
+      <p data-es="Identificación de desbalances, resonancias y fallas estructurales que impactan el desempeño dinámico y la seguridad operacional de los sistemas." data-en="Identification of imbalances, resonances and structural faults impacting dynamic performance and operational safety of systems.">Identificación de desbalances, resonancias y fallas estructurales que impactan el desempeño dinámico y la seguridad operacional de los sistemas.</p>
+    </div>
+    <div class="service">
+      <h3 data-es="Programas de Mantenimiento Predictivo" data-en="Predictive Maintenance Programs">Programas de Mantenimiento Predictivo</h3>
+      <p data-es="Implementación y fortalecimiento de programas basados en condición para la gestión técnica de activos industriales críticos." data-en="Implementation and strengthening of condition-based programs for technical management of critical industrial assets.">Implementación y fortalecimiento de programas basados en condición para la gestión técnica de activos industriales críticos.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2 data-es="Indicadores Técnicos de Desempeño" data-en="Technical Performance Indicators">Indicadores Técnicos de Desempeño</h2>
+    <p data-es="Nuestros servicios se orientan a la toma de decisiones técnicas basadas en datos medibles. Los indicadores de desempeño permiten evaluar objetivamente la condición de los equipos, priorizar intervenciones y mejorar la confiabilidad operacional de los activos industriales." data-en="Our services are focused on technical decision-making based on measurable data. Performance indicators allow objective evaluation of equipment condition, prioritization of interventions, and improvement of asset reliability.">Nuestros servicios se orientan a la toma de decisiones técnicas basadas en datos medibles. Los indicadores de desempeño permiten evaluar objetivamente la condición de los equipos, priorizar intervenciones y mejorar la confiabilidad operacional de los activos industriales.</p>
+  </div>
+  <div class="services">
+    <div class="service">
+      <h3 data-es="Reducción de Niveles Globales de Vibración" data-en="Global Vibration Level Reduction">Reducción de Niveles Globales de Vibración</h3>
+      <p data-es="Seguimiento de la disminución progresiva de amplitudes vibracionales conforme a estándares internacionales, evidenciando mejoras sostenidas en el estado mecánico de los equipos intervenidos." data-en="Monitoring the progressive reduction of vibration amplitudes according to international standards, demonstrating sustained improvements in the mechanical condition of the equipment.">Seguimiento de la disminución progresiva de amplitudes vibracionales conforme a estándares internacionales, evidenciando mejoras sostenidas en el estado mecánico de los equipos intervenidos.</p>
+    </div>
+    <div class="service">
+      <h3 data-es="Confiabilidad Operacional" data-en="Operational Reliability">Confiabilidad Operacional</h3>
+      <p data-es="Evaluación del desempeño de equipos críticos mediante análisis de tendencias vibracionales, permitiendo anticipar fallas incipientes y reducir paradas no programadas." data-en="Evaluation of critical equipment performance through vibration trend analysis, enabling early fault detection and reduction of unplanned shutdowns.">Evaluación del desempeño de equipos críticos mediante análisis de tendencias vibracionales, permitiendo anticipar fallas incipientes y reducir paradas no programadas.</p>
+    </div>
+    <div class="service">
+      <h3 data-es="Optimización del Mantenimiento" data-en="Maintenance Optimization">Optimización del Mantenimiento</h3>
+      <p data-es="Alineación de las actividades de mantenimiento con la condición real de los activos, priorizando intervenciones técnicas basadas en diagnóstico confiable." data-en="Alignment of maintenance activities with the actual condition of assets, prioritizing technical interventions based on reliable diagnostics.">Alineación de las actividades de mantenimiento con la condición real de los activos, priorizando intervenciones técnicas basadas en diagnóstico confiable.</p>
+    </div>
+  </div>
+</section>
+
+<section style="background:#f1f5f9">
+  <div class="section-title">
+    <h2 data-es="Casos de Aplicación" data-en="Application Scenarios">Casos de Aplicación</h2>
+    <p data-es="La experiencia acumulada durante más de 17 años nos ha permitido intervenir con éxito equipos rotativos críticos en diversos entornos industriales, aplicando metodologías de análisis y corrección alineadas a estándares internacionales." data-en="Over more than 17 years of experience, we have successfully intervened critical rotating equipment in diverse industrial environments, applying analysis and correction methodologies aligned with international standards.">La experiencia acumulada durante más de 17 años nos ha permitido intervenir con éxito equipos rotativos críticos en diversos entornos industriales, aplicando metodologías de análisis y corrección alineadas a estándares internacionales.</p>
+  </div>
+  <div class="services">
+    <div class="service"><h3 data-es="Equipos Rotativos Críticos" data-en="Critical Rotating Equipment">Equipos Rotativos Críticos</h3><p data-es="Motores, bombas, ventiladores y reductores sometidos a altos niveles de exigencia operacional." data-en="Motors, pumps, fans and gearboxes subjected to high operational demands.">Motores, bombas, ventiladores y reductores sometidos a altos niveles de exigencia operacional.</p></div>
+    <div class="service"><h3 data-es="Ventiladores y Sistemas de Extracción" data-en="Fans and Extraction Systems">Ventiladores y Sistemas de Extracción</h3><p data-es="Diagnóstico y balanceo de ventiladores industriales para mejorar eficiencia y reducir vibraciones estructurales." data-en="Diagnosis and balancing of industrial fans to improve efficiency and reduce structural vibrations.">Diagnóstico y balanceo de ventiladores industriales para mejorar eficiencia y reducir vibraciones estructurales.</p></div>
+    <div class="service"><h3 data-es="Líneas de Producción" data-en="Production Lines">Líneas de Producción</h3><p data-es="Soporte técnico en maquinaria crítica para procesos continuos de manufactura e industria." data-en="Technical support on critical machinery for continuous manufacturing and industrial processes.">Soporte técnico en maquinaria crítica para procesos continuos de manufactura e industria.</p></div>
+  </div>
+</section>
+
+<section style="background:#f1f5f9">
+  <div class="section-title"><h2 data-es="Servicios de Ingeniería Especializada" data-en="Specialized Engineering Services">Servicios de Ingeniería Especializada</h2></div>
+  <div class="services">
+    <div class="service"><h3 data-es="Análisis de Vibraciones" data-en="Vibration Analysis">Análisis de Vibraciones</h3><p data-es="Evaluación espectral avanzada para la detección temprana de fallas mecánicas, eléctricas y estructurales en equipos rotativos críticos." data-en="Advanced spectral evaluation for early detection of mechanical, electrical and structural faults in critical rotating equipment.">Evaluación espectral avanzada para la detección temprana de fallas mecánicas, eléctricas y estructurales en equipos rotativos críticos.</p></div>
+    <div class="service"><h3 data-es="Balanceo Dinámico Industrial" data-en="Industrial Dynamic Balancing">Balanceo Dinámico Industrial</h3><p data-es="Corrección de desbalances en sitio para reducir vibraciones, esfuerzos mecánicos y consumo energético." data-en="On-site imbalance correction to reduce vibration, mechanical stress and energy consumption.">Corrección de desbalances en sitio para reducir vibraciones, esfuerzos mecánicos y consumo energético.</p></div>
+    <div class="service"><h3 data-es="Alineación Láser de Precisión" data-en="Precision Laser Alignment">Alineación Láser de Precisión</h3><p data-es="Alineación de ejes y poleas bajo tolerancias técnicas internacionales, garantizando transmisión eficiente de potencia." data-en="Shaft and pulley alignment under international technical tolerances, ensuring efficient power transmission.">Alineación de ejes y poleas bajo tolerancias técnicas internacionales, garantizando transmisión eficiente de potencia.</p></div>
+  </div>
+</section>
+
+<!-- PQRSF -->
+<section style="background:#f1f5f9">
+  <div class="section-title">
+    <h2 data-es="PQRSF – Peticiones, Quejas, Reclamos, Sugerencias y Felicitaciones"
+        data-en="PQRSF – Requests, Complaints, Claims, Suggestions and Feedback">
+      PQRSF – Peticiones, Quejas, Reclamos, Sugerencias y Felicitaciones
+    </h2>
+  </div>
+
+  <p style="max-width:900px;margin:auto;text-align:center"
+     data-es="En Vibroanálisis S.A.S. promovemos una comunicación técnica, transparente y formal con nuestros clientes. Este formulario constituye el canal oficial para la gestión de solicitudes relacionadas con nuestros servicios de ingeniería, garantizando confidencialidad, trazabilidad y respuesta oportuna."
+     data-en="At Vibroanálisis S.A.S., we promote technical, transparent and formal communication with our clients. This form is the official channel for managing requests related to our engineering services, ensuring confidentiality, traceability and timely response.">
+    En Vibroanálisis S.A.S. promovemos una comunicación técnica, transparente y formal con nuestros clientes.
+  </p>
+
+  <br><br>
+
+  <form action="https://formsubmit.co/vibroanalisis.sas@gmail.com" method="POST"
+        style="max-width:850px;margin:auto;background:#ffffff;padding:45px;border-radius:18px;box-shadow:0 20px 45px rgba(0,0,0,0.12)">
+    
+    <input type="hidden" name="_subject" value="Nuevo PQRSF – Vibroanálisis S.A.S.">
+    <input type="hidden" name="_template" value="table">
+
+    <label>Nombre completo</label>
+    <input type="text" name="Nombre" required style="width:100%;padding:14px;margin-bottom:18px">
+
+    <label>Empresa</label>
+    <input type="text" name="Empresa" style="width:100%;padding:14px;margin-bottom:18px">
+
+    <label>Correo electrónico corporativo</label>
+    <input type="email" name="Email" required style="width:100%;padding:14px;margin-bottom:18px">
+
+    <label>Tipo de solicitud</label>
+    <select name="Tipo" required style="width:100%;padding:14px;margin-bottom:18px">
+      <option>Petición</option>
+      <option>Queja</option>
+      <option>Reclamo</option>
+      <option>Sugerencia</option>
+      <option>Felicitación</option>
+    </select>
+
+    <label>Descripción detallada</label>
+    <textarea name="Mensaje" rows="6" required style="width:100%;padding:14px;margin-bottom:24px"></textarea>
+
+    <button type="submit" class="btn">Enviar PQRSF</button>
+
+    <p style="margin-top:20px;font-size:0.9rem;color:#475569">
+      La información suministrada será tratada de forma confidencial y utilizada únicamente para la atención de su solicitud,
+      conforme a las buenas prácticas de ingeniería y servicio al cliente.
+    </p>
+  </form>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2 data-es="" data-en="Technical Performance Indicators"></h2>
+    <p data-es="Nuestros servicios están orientados a la mejora continua de la confiabilidad operacional mediante el seguimiento de indicadores técnicos que permiten evaluar el estado de los activos, la efectividad del mantenimiento y la toma de decisiones basadas en condición." 
+       data-en="Our services are focused on continuous improvement of operational reliability through the monitoring of technical indicators that assess asset condition, maintenance effectiveness and condition-based decision making.">
+      Nuestros servicios están orientados a la mejora continua de la confiabilidad operacional mediante el seguimiento de indicadores técnicos que permiten evaluar el estado de los activos, la efectividad del mantenimiento y la toma de decisiones basadas en condición.
+    </p>
+  </div>
+  <div class="values">
+    <div class="value-card"><h3 data-es="Reducción de Niveles Globales de Vibración" data-en="Reduction of Overall Vibration Levels">Reducción de Niveles Globales de Vibración</h3><p data-es="Seguimiento de la disminución progresiva de amplitudes vibracionales conforme a estándares internacionales, evidenciando mejoras en el estado mecánico de los equipos." data-en="Monitoring the progressive decrease of vibration amplitudes according to international standards, demonstrating improvements in equipment mechanical condition.">Seguimiento de la disminución progresiva de amplitudes vibracionales conforme a estándares internacionales, evidenciando mejoras en el estado mecánico de los equipos.</p></div>
+    <div class="value-card"><h3 data-es="Confiabilidad Operacional" data-en="Operational Reliability">Confiabilidad Operacional</h3><p data-es="Evaluación del desempeño de equipos críticos mediante análisis de tendencia, permitiendo anticipar fallas y reducir paradas no programadas." data-en="Evaluation of critical equipment performance through trend analysis, enabling failure anticipation and reduction of unplanned downtime.">Evaluación del desempeño de equipos críticos mediante análisis de tendencia, permitiendo anticipar fallas y reducir paradas no programadas.</p></div>
+    <div class="value-card"><h3 data-es="Optimización del Mantenimiento" data-en="Maintenance Optimization">Optimización del Mantenimiento</h3><p data-es="Alineación de las actividades de mantenimiento con la condición real de los activos, priorizando intervenciones técnicas basadas en diagnóstico." data-en="Alignment of maintenance activities with the real condition of assets, prioritizing technical interventions based on diagnostics.">Alineación de las actividades de mantenimiento con la condición real de los activos, priorizando intervenciones técnicas basadas en diagnóstico.</p></div>
+  </div>
+</section>
+
+<section style="background:#f1f5f9">
+  <div class="section-title">
+    <h2 data-es="" data-en="Application Cases"></h2>
+    <p data-es="La experiencia acumulada durante más de 17 años en el mercado nos ha permitido intervenir equipos rotativos en diversos sectores industriales, aplicando metodologías de análisis de vibraciones y confiabilidad adaptadas a cada operación." 
+       data-en="Experience accumulated over more than 17 years in the market has allowed us to intervene rotating equipment across multiple industrial sectors, applying vibration analysis and reliability methodologies tailored to each operation.">
+      La experiencia acumulada durante más de 17 años en el mercado nos ha permitido intervenir equipos rotativos en diversos sectores industriales, aplicando metodologías de análisis de vibraciones y confiabilidad adaptadas a cada operación.
+    </p>
+  </div>
+  <div class="services">
+    <div class="service"><h3 data-es="Equipos Rotativos Críticos" data-en="Critical Rotating Equipment">Equipos Rotativos Críticos</h3><p data-es="Diagnóstico y seguimiento de bombas, motores y reductores sometidos a operación continua, garantizando su confiabilidad y disponibilidad." data-en="Diagnosis and monitoring of pumps, motors and gearboxes under continuous operation, ensuring reliability and availability.">Diagnóstico y seguimiento de bombas, motores y reductores sometidos a operación continua, garantizando su confiabilidad y disponibilidad.</p></div>
+    <div class="service"><h3 data-es="Ventiladores y Sistemas de Transporte" data-en="Fans and Conveying Systems">Ventiladores y Sistemas de Transporte</h3><p data-es="Identificación de desbalances, resonancias y fallas estructurales que afectan el desempeño y la seguridad operacional." data-en="Identification of imbalances, resonances and structural faults affecting performance and operational safety.">Identificación de desbalances, resonancias y fallas estructurales que afectan el desempeño y la seguridad operacional.</p></div>
+    <div class="service"><h3 data-es="Programas de Mantenimiento Predictivo" data-en="Predictive Maintenance Programs">Programas de Mantenimiento Predictivo</h3><p data-es="Implementación y fortalecimiento de programas basados en condición para la gestión técnica de activos industriales." data-en="Implementation and strengthening of condition-based programs for technical management of industrial assets.">Implementación y fortalecimiento de programas basados en condición para la gestión técnica de activos industriales.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2 data-es="Metodología de Trabajo" data-en="Work Methodology">Metodología de Trabajo</h2>
+    <p data-es="Nuestro enfoque metodológico se basa en principios de ingeniería de confiabilidad y mantenimiento basado en condición, asegurando diagnósticos precisos y decisiones técnicas fundamentadas." data-en="Our methodological approach is based on reliability engineering principles and condition-based maintenance, ensuring accurate diagnostics and well-founded technical decisions.">Nuestro enfoque metodológico se basa en principios de ingeniería de confiabilidad y mantenimiento basado en condición, asegurando diagnósticos precisos y decisiones técnicas fundamentadas.</p>
+  </div>
+  <div class="services">
+    <div class="service"><h3 data-es="1. Levantamiento de Información" data-en="1. Data Collection">1. Levantamiento de Información</h3><p data-es="Recolección de datos operativos, históricos y condiciones de funcionamiento de los equipos." data-en="Collection of operational data, historical records and equipment operating conditions.">Recolección de datos operativos, históricos y condiciones de funcionamiento de los equipos.</p></div>
+    <div class="service"><h3 data-es="2. Medición y Adquisición de Datos" data-en="2. Measurement and Data Acquisition">2. Medición y Adquisición de Datos</h3><p data-es="Aplicación de técnicas de medición de vibraciones bajo parámetros controlados y repetibles." data-en="Application of vibration measurement techniques under controlled and repeatable parameters.">Aplicación de técnicas de medición de vibraciones bajo parámetros controlados y repetibles.</p></div>
+    <div class="service"><h3 data-es="3. Análisis Técnico" data-en="3. Technical Analysis">3. Análisis Técnico</h3><p data-es="Evaluación espectral, análisis de tendencias y correlación con modos de falla." data-en="Spectral evaluation, trend analysis and correlation with failure modes.">Evaluación espectral, análisis de tendencias y correlación con modos de falla.</p></div>
+    <div class="service"><h3 data-es="4. Informe y Recomendaciones" data-en="4. Reporting and Recommendations">4. Informe y Recomendaciones</h3><p data-es="Emisión de informes técnicos con conclusiones claras y recomendaciones priorizadas." data-en="Issuance of technical reports with clear conclusions and prioritized recommendations.">Emisión de informes técnicos con conclusiones claras y recomendaciones priorizadas.</p></div>
+  </div>
+</section>
+
+<section style="background:#f1f5f9">
+  <div class="section-title">
+    <h2 data-es="Normas Técnicas Aplicadas" data-en="Applied Technical Standards">Normas Técnicas Aplicadas</h2>
+    <p data-es="Nuestros servicios se desarrollan conforme a estándares internacionales reconocidos, garantizando consistencia, trazabilidad y confiabilidad en los diagnósticos." data-en="Our services are developed in accordance with internationally recognized standards, ensuring consistency, traceability and diagnostic reliability.">Nuestros servicios se desarrollan conforme a estándares internacionales reconocidos, garantizando consistencia, trazabilidad y confiabilidad en los diagnósticos.</p>
+  </div>
+  <div class="services">
+    <div class="service"><h3>ISO 20816</h3><p data-es="Evaluación de vibraciones mecánicas en máquinas, criterios de severidad y límites aceptables." data-en="Mechanical vibration evaluation of machines, severity criteria and acceptable limits.">Evaluación de vibraciones mecánicas en máquinas, criterios de severidad y límites aceptables.</p></div>
+    <div class="service"><h3>ISO 17359</h3><p data-es="Monitoreo de condición y diagnóstico de máquinas, lineamientos para programas predictivos." data-en="Condition monitoring and machine diagnostics, guidelines for predictive programs.">Monitoreo de condición y diagnóstico de máquinas, lineamientos para programas predictivos.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2 data-es="Ingeniero Responsable" data-en="Lead Reliability Engineer">Ingeniero Responsable</h2>
+    <p data-es="Ingeniero especialista en análisis de vibraciones y confiabilidad de activos, con más de 17 años de experiencia en diagnóstico de equipos rotativos industriales." data-en="Engineer specialized in vibration analysis and asset reliability, with more than 17 years of experience in diagnosing industrial rotating equipment.">Ingeniero especialista en análisis de vibraciones y confiabilidad de activos, con más de 17 años de experiencia en diagnóstico de equipos rotativos industriales.</p>
+  </div>
+  <div class="services">
+    <div class="service"><h3 data-es="Perfil Profesional" data-en="Professional Profile">Perfil Profesional</h3><p data-es="Amplia trayectoria en análisis espectral, balanceo dinámico, alineación láser y desarrollo de programas de mantenimiento predictivo para industrias de procesos y manufactura." data-en="Extensive background in spectral analysis, dynamic balancing, laser alignment and development of predictive maintenance programs for process and manufacturing industries.">Amplia trayectoria en análisis espectral, balanceo dinámico, alineación láser y desarrollo de programas de mantenimiento predictivo para industrias de procesos y manufactura.</p></div>
+    <div class="service"><h3 data-es="Enfoque Profesional" data-en="Professional Approach">Enfoque Profesional</h3><p data-es="Orientación a la toma de decisiones técnicas, ética profesional, confidencialidad de la información y generación de valor sostenible para el cliente." data-en="Focus on technical decision-making, professional ethics, information confidentiality and sustainable value generation for clients.">Orientación a la toma de decisiones técnicas, ética profesional, confidencialidad de la información y generación de valor sostenible para el cliente.</p></div>
+  </div>
+</section>
+
+<footer>
+  <h2 data-es="Ingeniería que Transforma Vibraciones en Decisiones Estratégicas" data-en="Engineering that Transforms Vibrations into Strategic Decisions">Ingeniería que Transforma Vibraciones en Decisiones Estratégicas</h2>
+  <p>📍 Guarne – Antioquia, Colombia</p>
+  <p>📧 vibroanalisis.sas@gmail.com</p>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[data-es]').forEach(el => {
+      el.textContent = el.dataset[lang];
+    });
+  }
+</script>
+
+</body>
+</html>
